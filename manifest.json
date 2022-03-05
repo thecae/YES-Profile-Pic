@@ -1,0 +1,11 @@
+{
+    "name": "YES Profile Picture",
+    "version": "0.1",
+    "description": "Hijack YES Profile Picture.",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "matches": ["https://acad.app.vanderbilt.edu/*"],
+        "all_frames": true,
+        "js":      ["assets/js/contentScript.js"]
+    }]
+}
